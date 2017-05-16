@@ -1,5 +1,5 @@
 # MOVIE ANDROID APP
-### A. (NAMA APLIKASI)
+### A. NAMA APLIKASI
 
 <br>
 
@@ -7,12 +7,12 @@
 
 <br>
 
-#### B. (APK LINK DOWNLOAD)
+#### B. APK LINK DOWNLOAD
 <P> https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B_BB_wH3PeqZTTM2UUFUa004Rk0/view?usp=sharing </P>
 
 <br>
 
-### C. (DATA DIRI)
+### C. DATA DIRI
 - Nama          : Nurkumala Budi Fajrin
 - Kelas         : XI RPL 5
 - No. Urut      : 24
@@ -22,7 +22,7 @@
 
 <br>
 
-### D. (ALAMAT API)
+### D. ALAMAT API
 
 <br>
 ## GENERAL
@@ -36,21 +36,21 @@
 
 <br>
 
-### E. (JENIS NAVIGASI)
+### E. JENIS NAVIGASI
 
 <br>
 
-<P>Navigation Drawer</P>
+<P><i>Navigation Drawer</i></P>
 
 <br>
 
-### F. (Library dari Local Database)
+### F. lIBRARY DARI LOCAL DATABASE
 
 <br>
 <P> SQLite Dasar, Glide serta Volley</P>
 <br>
 
-### G. (DERKRIPSI APLIKASI)
+### G. DESKRIPSI APLIKASI
 
 <br>
 
@@ -58,7 +58,7 @@
 
 <br>
 
-### H. (KELEBIHAN)
+### H. KELEBIHAN APLIKASI
 
 <br>
 
@@ -69,4 +69,4 @@
 
 <br>
 
-### I. (SCREENSHOOT)
+### I. SCREENSHOOT
