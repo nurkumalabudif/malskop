@@ -44,7 +44,7 @@
 
 <br>
 
-### F. lIBRARY DARI LOCAL DATABASE
+### F. LIBRARY DARI LOCAL DATABASE
 
 <br>
 <P> SQLite Dasar, Glide serta Volley</P>
