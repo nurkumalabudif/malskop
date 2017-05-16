@@ -7,7 +7,7 @@
 
 <br>
 
-#### B. (LINK DOWNLOAD)
+#### B. (APK LINK DOWNLOAD)
 <P> https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B_BB_wH3PeqZTTM2UUFUa004Rk0/view?usp=sharing </P>
 
 <br>
@@ -32,7 +32,7 @@
 ## PRIVATE
 <br><b> Coming Soon : https://api.themoviedb.org/3/movie/upcoming?api_key=77c5350fa5972bfc8be1d95574c0c19e
 <br><b> Now Playing : https://api.themoviedb.org/3/movie/now_playing?api_key=77c5350fa5972bfc8be1d95574c0c19e
-<br><b> Top Rated   : https://api.themoviedb.org/3/movie/top_rated?api_key=77c5350fa5972bfc8be1d95574c0c19e
+<br><b> Top Rated   : https://api.themoviedb.org/3/movie/top_rated?api_key=77c5350fa5972bfc8be1d95574c0c19e</b>
 
 <br>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-<P> <i>Navigation Drawer</i> </P>
+<P>Navigation Drawer</P>
 
 <br>
 
@@ -69,4 +69,4 @@
 
 <br>
 
-### I. (SCREENSHOT)
+### I. (SCREENSHOOT)
