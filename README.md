@@ -27,12 +27,12 @@
 <br>
 ## GENERAL
 <br>
-<P><b> The Movie Database (TMDb) API: https://www.themoviedb.org/documentation/api </P>
+<P><b> The Movie Database (TMDb) API: https://www.themoviedb.org/documentation/api </b></P>
 <br>
 ## PRIVATE
-<br><b> Coming Soon : https://api.themoviedb.org/3/movie/upcoming?api_key=77c5350fa5972bfc8be1d95574c0c19e
-<br><b> Now Playing : https://api.themoviedb.org/3/movie/now_playing?api_key=77c5350fa5972bfc8be1d95574c0c19e
-<br><b> Top Rated   : https://api.themoviedb.org/3/movie/top_rated?api_key=77c5350fa5972bfc8be1d95574c0c19e</b>
+<br><b> Coming Soon : </b>https://api.themoviedb.org/3/movie/upcoming?api_key=77c5350fa5972bfc8be1d95574c0c19e
+<br><b> Now Playing : </b>https://api.themoviedb.org/3/movie/now_playing?api_key=77c5350fa5972bfc8be1d95574c0c19e
+<br><b> Top Rated   : </b>https://api.themoviedb.org/3/movie/top_rated?api_key=77c5350fa5972bfc8be1d95574c0c19e
 
 <br>
 
