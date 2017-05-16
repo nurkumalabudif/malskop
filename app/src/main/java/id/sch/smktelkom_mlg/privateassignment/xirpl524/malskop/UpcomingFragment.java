@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl524.malskop;
 
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -28,11 +29,19 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl524.malskop.service.VolleySin
  */
 public class UpcomingFragment extends Fragment {
 
+
     ArrayList<Result> mList = new ArrayList<>();
     SourceAdapter mAdapter;
 
     public UpcomingFragment() {
         // Required empty public constructor
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_page1, container, false);
     }
 
     @Override
@@ -49,7 +58,8 @@ public class UpcomingFragment extends Fragment {
 
     private void downloadDataSources() {
         String url = "https://api.themoviedb.org/3/movie/upcoming?api_key=77c5350fa5972bfc8be1d95574c0c19e";
-        //https://api.themoviedb.org/3/movie/top_rated?api_key=77c5350fa5972bfc8be1d95574c0c19e
+        //https://api.themoviedb.org/3/movie/upcoming?api_key=77c5350fa5972bfc8be1d95574c0c19e
+        //https://api.themoviedb.org/3/movie/now_playing?api_key=77c5350fa5972bfc8be1d95574c0c19e
 
         GsonGetRequest<SourcesResponse> myRequest = new GsonGetRequest<SourcesResponse>
                 (url, SourcesResponse.class, null, new Response.Listener<SourcesResponse>() {
@@ -71,12 +81,4 @@ public class UpcomingFragment extends Fragment {
                 });
         VolleySingleton.getInstance(this.getActivity()).addToRequestQueue(myRequest);
     }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_upcoming, container, false);
-    }
-
 }

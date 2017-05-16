@@ -95,19 +95,12 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
             fragment = new TopRatedFragment();
             setTitle("Top rated");
-
         } else if (id == R.id.nav_gallery) {
             fragment = new UpcomingFragment();
             setTitle("Coming Soon");
         } else if (id == R.id.nav_slideshow) {
             fragment = new NowPlayingFragment();
             setTitle("Now Playing");
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
 
         getSupportFragmentManager().beginTransaction()
