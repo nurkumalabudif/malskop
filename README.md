@@ -75,4 +75,3 @@
 ![3](https://github.com/nurkumalabudif/malskop/blob/master/3.PNG)
 ![4](https://github.com/nurkumalabudif/malskop/blob/master/4.PNG)
 ![5](https://github.com/nurkumalabudif/malskop/blob/master/5.PNG)
-![1](https://github.com/nurkumalabudif/RecyclerView1/blob/master/1.jpg)
