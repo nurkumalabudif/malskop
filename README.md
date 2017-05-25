@@ -70,11 +70,9 @@
 <br>
 
 ### I. SCREENSHOOT
-<br>
 ![1](https://github.com/nurkumalabudif/malskop/blob/master/1.PNG)
 ![2](https://github.com/nurkumalabudif/malskop/blob/master/2.PNG)
-<br>
 ![3](https://github.com/nurkumalabudif/malskop/blob/master/3.PNG)
 ![4](https://github.com/nurkumalabudif/malskop/blob/master/4.PNG)
-<br>
 ![5](https://github.com/nurkumalabudif/malskop/blob/master/5.PNG)
+![1](https://github.com/nurkumalabudif/RecyclerView1/blob/master/1.jpg)
