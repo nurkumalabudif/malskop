@@ -71,10 +71,10 @@
 
 ### I. SCREENSHOOT
 <br>
-!(1.PNG)[https://github.com/nurkumalabudif/malskop/blob/master/1.PNG]
-!(2.PNG)[https://github.com/nurkumalabudif/malskop/blob/master/2.PNG]
+![1.PNG](https://github.com/nurkumalabudif/malskop/blob/master/1.PNG)
+![2.PNG](https://github.com/nurkumalabudif/malskop/blob/master/2.PNG)
 <br>
-!(3.PNG)[https://github.com/nurkumalabudif/malskop/blob/master/3.PNG]
-!(4.PNG)[https://github.com/nurkumalabudif/malskop/blob/master/4.PNG]
+![3.PNG](https://github.com/nurkumalabudif/malskop/blob/master/3.PNG)
+![4.PNG](https://github.com/nurkumalabudif/malskop/blob/master/4.PNG)
 <br>
-!(5.PNG)[https://github.com/nurkumalabudif/malskop/blob/master/5.PNG]
+![5.PNG](https://github.com/nurkumalabudif/malskop/blob/master/5.PNG)
