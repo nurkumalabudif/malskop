@@ -14,6 +14,10 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_send"
             android:title="Playing Now" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorite List" />
     </group>
 
 

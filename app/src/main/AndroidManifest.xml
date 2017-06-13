@@ -3,12 +3,23 @@
     package="id.sch.smktelkom_mlg.privateassignment.xirpl524.malskop">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name="com.orm.SugarApp"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="favorite.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="id.sch.smktelkom_mlg.privateassignment.xirpl524.malskop.sugar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -19,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -33,7 +33,7 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.source_list, parent, false);
+                .inflate(R.layout.list_item, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
@@ -41,11 +41,13 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Result result = list.get(position);
-        holder.tvName.setText(result.title);
+        holder.tvTitle.setText(result.title);
         holder.tvDesc.setText(result.overview);
+        holder.tvRelease.setText(result.release_date);
+        holder.tvRating.setText(result.vote_average);
         Glide.with(context)
                 .load("http://image.tmdb.org/t/p/w500" + result.poster_path)
-                .into(holder.gambar);
+                .into(holder.ivPoster);
     }
 
     @Override
@@ -56,20 +58,34 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
     }
 
     public interface ISourceAdapter {
-        void showArticles(String title, String overview, String poeter_path);
+        void showArticles(String poster_path, String overview, String release_date, String title, String backdrop_path, String vote_average, String original_language, String popularity, String vote_count);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView gambar;
-        TextView tvName;
+        ImageView ivPoster;
+        TextView tvTitle;
         TextView tvDesc;
+        TextView tvRelease;
+        TextView tvRating;
+        TextView tvPopularity;
+        TextView tvVote;
+        TextView tvLanguage;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            gambar = (ImageView) itemView.findViewById(R.id.imageViewPoster);
-            tvName = (TextView) itemView.findViewById(R.id.textViewName);
-            tvDesc = (TextView) itemView.findViewById(R.id.textViewDesc);
-
+            ivPoster = (ImageView) itemView.findViewById(R.id.imageViewPoster);
+            tvTitle = (TextView) itemView.findViewById(R.id.textViewTitle);
+            tvDesc = (TextView) itemView.findViewById(R.id.textViewOverview);
+            tvRelease = (TextView) itemView.findViewById(R.id.textViewDate);
+            tvRating = (TextView) itemView.findViewById(R.id.textViewRating);
+            tvPopularity = (TextView) itemView.findViewById(R.id.VoteAverage);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Result result = list.get(getAdapterPosition());
+                    mISourceAdapter.showArticles(result.poster_path, result.overview, result.release_date, result.title, result.backdrop_path, result.vote_average, result.original_language, result.popularity, result.vote_count);
+                }
+            });
         }
     }
 }
