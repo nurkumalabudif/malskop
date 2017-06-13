@@ -8,7 +8,7 @@
 <br>
 
 #### B. APK LINK DOWNLOAD
-<P> https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B_BB_wH3PeqZTTM2UUFUa004Rk0/view?usp=sharing </P>
+[Download Aplikasi](https://drive.google.com/uc?export=download&id=0B36Y2xO8Cvzla3pxamExSVR4cGc)
 
 <br>
 
@@ -47,7 +47,7 @@
 ### F. LIBRARY DARI LOCAL DATABASE
 
 <br>
-<P> SQLite Dasar, Glide serta Volley</P>
+<P> SugarORM</P>
 <br>
 
 ### G. DESKRIPSI APLIKASI
@@ -69,9 +69,15 @@
 
 <br>
 
-### I. SCREENSHOOT
-![1](https://github.com/nurkumalabudif/malskop/blob/master/1.PNG)
-![2](https://github.com/nurkumalabudif/malskop/blob/master/2.PNG)
-![3](https://github.com/nurkumalabudif/malskop/blob/master/3.PNG)
-![4](https://github.com/nurkumalabudif/malskop/blob/master/4.PNG)
-![5](https://github.com/nurkumalabudif/malskop/blob/master/5.PNG)
+### I. LIBRARY LAIN
+
+<br>
+
+- Intro/Guide Aplikasi - 'com.github.deano2390:MaterialShowcaseView:1.1.0'
+
+<br>
+
+### J. SCREENSHOOT
+<img src="https://user-images.githubusercontent.com/22162946/27070700-4f34451e-5044-11e7-8e9e-196748a8fa5d.jpg" width="300" height="515" /><img src="https://user-images.githubusercontent.com/22162946/27070701-4f4bf844-5044-11e7-9ad4-607c14a8ba1a.jpg" width="300" height="515" />
+<img src="https://user-images.githubusercontent.com/22162946/27070702-4f5335c8-5044-11e7-8555-f285ba07b52e.png" width="300" height="515" /><img src="https://user-images.githubusercontent.com/22162946/27070703-4f5fa240-5044-11e7-92fb-5b19d699714a.png" width="300" height="515" />
+<img src="https://user-images.githubusercontent.com/22162946/27070705-4f67c1e6-5044-11e7-92a4-738f2416ca95.png" width="300" height="515" /><img src="https://user-images.githubusercontent.com/22162946/27070704-4f60380e-5044-11e7-88d9-cf6788a6274a.png" width="300" height="515" />
